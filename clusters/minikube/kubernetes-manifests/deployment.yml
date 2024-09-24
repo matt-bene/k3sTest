@@ -17,6 +17,6 @@ spec:
         - name: image-pull-secret  # Nome del tuo secret
       containers:
         - name: swetasgitaksupdate 
-          image: akservice001registry.azurecr.io/azurekubeserviceapp:57540
+          image: akservice001registry.azurecr.io/azurekubeserviceapp:latest
           ports:
             - containerPort: 8080
