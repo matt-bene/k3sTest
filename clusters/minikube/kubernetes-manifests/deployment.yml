@@ -13,10 +13,11 @@ spec:
       labels:
         app: swetasgitaksupdate 
     spec:
+      imagePullSecrets:
+        -name: image-pull-secret
       containers:
         - name: swetasgitaksupdate 
           image: akservice001registry.azurecr.io/azurekubeserviceapp:57540
           ports:
           - containerPort: 8080
-          imagePullSecrets:
-          - name: image-pull-secret
+      
