@@ -5,3 +5,4 @@ resources:
 - gotk-sync.yaml
 - ../deployment.yaml
 - ../service.yaml
+- ../ingress.yaml
