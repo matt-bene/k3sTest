@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: swetasgitaksupdate
+spec:
+  type: ClusterIP
+  selector:
+    app: swetasgitaksupdate-6b577f9dc9-bzrbb
+  ports:
+    - port: 80
+      targetPort: 8080
